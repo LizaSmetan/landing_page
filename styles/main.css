@@ -1,0 +1,35 @@
+header{
+    max-width: 1502px;
+    padding: 45px 16px 0;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+header ul{
+    display: flex;
+}
+header ul li{
+    margin-left: 16px;
+}
+.first_screen{
+    background: #1B1B1B;
+    color: #FFFFFF;
+    height: 100vh;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.first_screen .first_screen_content{
+    text-align: center;
+}
+.first_screen .first_screen_content h1{
+    letter-spacing: 1.7em;
+    text-indent: 1.7em;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.first_screen .first_screen_content p{
+    color: rgba(255, 255, 255, 0.2);
+}
